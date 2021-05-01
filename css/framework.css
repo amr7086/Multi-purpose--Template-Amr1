@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+}
+.all-button {
+  background-color: var(--main-color);
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding: 20px 30px; 
+  border: none;
+}
+.all-img-h2-p img {
+  padding-top: 60px;
+}
+.all-img-h2-p h2 {
+  letter-spacing: 20px;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 20px;
+}
+.all-img-h2-p p {
+  padding-bottom: 60px;
+  color: #707070;
+  line-height: 1.9;
+  width: 70%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .all-img-h2-p h2 {
+    letter-spacing: 10px;
+  }
+  .all-img-h2-p p {
+    line-height: 2.1;
+    width: 80%;
+  }
+}
